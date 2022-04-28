@@ -1,9 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 #header {
     display: flex;
     justify-content: space-evenly;
     align-items: flex-start;
 }
 
+.logo-image{
+
+}
+
+#header-img img {
+    con;
+}
+
 #nav-bar {
-    flex-grow: 
+    display: flex;
+}
+
+#nav-bar ul{
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+#nav-bar ul li{
+display: inline-block;
+}
+
+#nav-bar ul li a{
+    text-decoration: none;
+    margin-left: 30px;
 }
