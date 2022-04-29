@@ -11,11 +11,12 @@
 }
 
 .logo-image{
-
+        display: flex;
+        align-items: left;
 }
 
 #header-img img {
-    con;
+
 }
 
 #nav-bar {
@@ -23,7 +24,6 @@
 }
 
 #nav-bar ul{
-margin: 0;
 padding: 0;
 list-style: none;
 }
