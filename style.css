@@ -5,6 +5,15 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+h2 {
+    font-size: 28px;
+    font-weight: lighter;
+}
+
+p {
+    font-size: 18px;
+}
+
 #header {
     margin: 25px 20px 0px 20px;
     display: flex;
@@ -47,6 +56,17 @@
     justify-content: center;
     flex-direction: column;
 }
+
+#description {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3px;
+    text-align: left;
+    max-width: 950px;
+    margin: 50px auto;
+    margin-bottom: 25px;
+}
+
 #video {
     display: flex;
     align-items: center;
