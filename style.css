@@ -16,16 +16,18 @@ p {
 }
 
 #header {
-    margin: 25px 20px 0px 20px;
+    margin: auto;
+    padding: 20px;
+    width: 100%;
     display: flex;
-    justify-content: space-evenly;
-    align-items: flex-start;
+    justify-content: space-between;
+    align-items: center;
     flex-direction: row;
+    position: fixed;
 }
 
-.logo-image {
-    display: flex;
-    flex-grow: 1;
+#logo-image {
+    text-align: left;
 }
 
 #nav-bar {
@@ -44,6 +46,7 @@ p {
 #nav-bar ul li a {
     text-decoration: none;
     margin-left: 30px;
+    margin-right: 60px;
     color: black;
 }
 
@@ -89,7 +92,7 @@ p {
 }
 
 #products {
-   
+
     padding: 50px;
     display: flex;
     justify-content: center;
@@ -121,3 +124,30 @@ p {
     padding: 16px;
     text-align: center;
     background-color: #f1f1f1;
+}
+
+#footer {
+    margin: auto;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#nav-bar-footer ul {
+    list-style: none;
+}
+
+#nav-bar-footer ul li {
+    display: inline-block;
+    color: black;
+}
+
+#nav-bar-footer ul li a {
+    text-decoration: none;
+    margin-left: 30px;
+    margin-right: 60px;
+    color: black;
+}
