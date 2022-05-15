@@ -130,7 +130,7 @@ p {
 
 #footer {
     margin: auto;
-    padding: 20px;
+    padding: 3px;
     width: 100%;
     display: flex;
     flex-flow: column wrap;
@@ -154,13 +154,13 @@ p {
 
 #nav-bar-footer ul li a {
     text-decoration: none;
-    margin-left: 30px;
-    margin-right: 60px;
+    margin-right: 40px;
     color: black;
-   
+   font-size: 16px;
 }
 
 .copy{
     text-align: right;
     padding: 20px;
+    font-size: 14px;
 }
